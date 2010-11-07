@@ -266,7 +266,6 @@ const struct board_api board_api_gta01 = {
 			       "loglevel=4 "
 			       "console=tty0 "
 			       "console=ttySAC0,115200 "
-			       "init=/sbin/init "
 			       "ro ",
 	.commandline_board_debug = " loglevel=8 ",
 	.noboot = "boot/noboot-GTA01",

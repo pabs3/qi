@@ -46,8 +46,7 @@ const struct board_api board_api_smdk6410 = {
 	.is_this_board = is_this_board_smdk6410,
 	.putc = putc_smdk6410,
 	.commandline_board = "console=ttySAC0,115200 "
-			     "loglevel=3 "
-			     "init=/bin/sh ",
+			     "loglevel=3 ",
 	.commandline_board_debug =  " loglevel=8",
 	.noboot = "boot/noboot-SDMK6410",
 	.append = "boot/append-SMDK6410",
